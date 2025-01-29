@@ -1,0 +1,84 @@
+/* Reset default */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Input & Button */
+input {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: #ffcc00;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff9900;
+}
+
+/* Cuaca Saat Ini */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#weather-info img {
+    width: 100px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Prakiraan Cuaca */
+.forecast-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.forecast {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.forecast h4 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.forecast img {
+    width: 50px;
+    margin: 5px 0;
+}

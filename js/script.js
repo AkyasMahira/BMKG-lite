@@ -56,7 +56,6 @@ async function getWeather() {
         console.error("Error mencari kota:", error);
     }
 }
-
 // Pemetaan kode cuaca Open-Meteo ke ikon
 const weatherIcons = {
     0: "01d", // Cerah
