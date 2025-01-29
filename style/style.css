@@ -82,3 +82,14 @@ p {
     width: 50px;
     margin: 5px 0;
 }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, #4facfe, #72f8ff);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    color: #555;
+}
